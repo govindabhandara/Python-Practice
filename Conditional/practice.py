@@ -1,5 +1,9 @@
-# Conditional list comprehensions
-exercises = ["Running", "Swimming", "Weight Lifting", "Yoga"]
-cardio_exercises = [ex for ex in exercises if ex in ["Running", "Swimming"]]
-print(cardio_exercises)
-
+grade=float(input("enter marks"))
+if (grade>=90 and grade<100):
+    print("grade A")
+elif ( grade>=80 and grade<90):
+    print("grade B")
+elif ( grade>=70 and grade<80):
+    print("grade B")
+else:
+    print("NG")

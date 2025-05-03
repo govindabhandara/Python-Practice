@@ -6,5 +6,3 @@ def count_vowels(text):
             count+=1
     return count
 print(count_vowels("hello"))
-
-#or

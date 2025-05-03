@@ -1,8 +1,4 @@
-def count_vowels(text):
-    vowels='AEIOUaeiou'
-    count=0
-    for char in text:
-        if char in vowels:
-            count+=1
-    return count
-print(count_vowels("hello world"))
+def is_palindrome(p):
+    p=p.lower().replace("","")
+    return p[::-1]
+print(is_palindrome("fuck"))

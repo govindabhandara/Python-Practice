@@ -1,5 +1,9 @@
-n=int(input('enter'))
-factorial=1
-for i in range(1,n+1):
-    factorial*=i
-print(f"{n} of factorial is {factorial}")
+text='I love Programming.'
+vowels='aeiouAEIOU'
+count=0
+for char in text:
+    if char in vowels:
+        count+=1
+print(f"The number of vowels is {count}")
+
+

@@ -1,0 +1,9 @@
+eid=101
+ename='govinda'
+esal=45000.45
+avail=False
+#read
+print(type(eid))
+print(type(ename))
+print(type(esal))
+print(type(avail))

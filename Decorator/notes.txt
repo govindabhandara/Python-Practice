@@ -1,0 +1,5 @@
+Decorator:
+    Decorator is a function, it take one function as argument,
+    and modify  the function, and return the modified function.
+
+reduce function:

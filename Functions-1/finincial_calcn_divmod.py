@@ -1,8 +1,9 @@
 def split_money(amount):
     hundreds,remainder=divmod(amount,100)
     fifties,remainder=divmod(remainder,50)
-    twenties,tens=divmod(remainder,20)
-    return hundreds, fifties, twenties,tens
+    twenties,remainder=divmod(remainder,20)
+    ten,remainder=divmod(remainder,10)
+    return hundreds, fifties, twenties,ten
 
 h,f,tw,te=split_money(380)
 print(f"Rs 100:{h},Rs 50:{f},Rs 20:{tw},Rs 10:{te}")

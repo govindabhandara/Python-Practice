@@ -9,5 +9,5 @@ new_marks=[]
 def add_marks(mark):
     return mark+1
 for mark in marks:
-    add_marks.append(mark)
+    new_marks.append(add_marks(mark))
 print(new_marks)

@@ -1,14 +1,18 @@
-def check_divide(func):
-
-    def inner(a,b):
-        if b==0:
-            print("can't divide by zero")
+def page_check(func):
+    def inner(name,login):
+        if login==False:
+            print("try again")
         else:
-            return func(a,b)
+            return func(name,login)
     return inner
-@check_divide
-def divide(a,b):
-    print(a/b)
-
-divide(10,2)
-divide(10,0) 
+def home_page(name,login):
+    print("home_page",name)
+@page_check
+def order_page(name,login):
+    print("order_page",name)
+@page_check
+def payment_page(name,login):
+    print("payment_page",name)
+home_page("govinda",False)
+order_page("rahul",False)
+payment_page("milan",True)

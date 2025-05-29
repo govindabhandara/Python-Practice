@@ -1,10 +1,5 @@
-class Account():
-    '''
-    Account class create by Govinda
-    '''
-    min_bal=500
-    def open_Account(self):
-        pass
-    
-a1=Account()
-print(Account.__doc__)
+class Employee():
+    def e_details(self,eid,ename,esal):
+        print("e_details",eid,ename,esal)
+e1=Employee()
+e1.e_details(101,"govinda:",45000)

@@ -1,5 +1,5 @@
 import csv
-fp=open("emp.csv",'w',newline="")
+fp=open("emp.csv",'w')
 csv_obj=csv.writer(fp)
 csv_obj.writerow(["eid","ename","esal"])
 n=int(input("enter no. of employee"))

@@ -1,0 +1,15 @@
+Function:
+    Group of statement, def keyword, main objective of function is code reeusability 
+inner Function:
+    Specific Task
+recursive Function:
+    execute business logic, return value
+lambda function/nameless function:
+    decorator, generator
+
+
+Arguments:
+1. Positional Arguments : Pass values in same orders as parameter
+2. keyword Arguments : Pass values using parameter names
+3. Default Arguments :  Assign default values to parameter
+4. Var length arguments : Accept arbitarty number of arguments
